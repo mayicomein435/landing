@@ -1,0 +1,69 @@
+.home {
+   height: 500px;
+   width: 100%;
+   position: relative;
+   top:200px;
+   left:40%;
+}
+
+.container {
+    background-image: url("https://www.wallpapertip.com/wmimgs/4-41630_1920x1080-sea-best-wallpaper-hd-data-id-10492.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.col-lg-4 img {
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+}
+.row{
+    display:flex;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+   
+
+
+
+
